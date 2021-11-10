@@ -1,0 +1,65 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title> Calculadora con JavaScript </title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/calculadora.css">
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body onload="init();">
+  <header style="text-align: center; font-weight: bold; font-family: Arial">
+    Mi Calculadora:
+  </header>
+
+  <table class="calculadora">
+    <tr>
+      <td colspan="4"><span id="resultado"></span> </td>
+    </tr>
+    <tr>
+      <td><button id="siete">7</button></td>
+      <td><button id="ocho">8</button></td>
+      <td><button id="nueve">9</button></td>
+      <td><button id="division">/</button></td>
+    </tr>
+    <tr>
+      <td><button id="cuatro">4</button></td>
+      <td><button id="cinco">5</button></td>
+      <td><button id="seis">6</button></td>
+      <td><button id="multiplicacion">*</button></td>
+    </tr>
+    <tr>
+      <td><button id="uno">1</button></td>
+      <td><button id="dos">2</button></td>
+      <td><button id="tres">3</button></td>
+      <td><button id="resta">-</button></td>
+    </tr>
+    <tr>
+      <td><button id="cero">0</button></td>
+      <td><button id="reset">C</button></td>
+      <td><button id="suma">+</button></td>
+      <td><button id="igual">=</button></td>
+    </tr>
+  </table>
+
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>
